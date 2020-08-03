@@ -1,7 +1,8 @@
 {
   "python.analysis.autoSearchPaths": true,
   "python.analysis.extraPaths": [
-    "./src/algs"
+    "./src/algs",
+    "./tests"
   ],
   "[python]": {
     "editor.tabSize": 4
@@ -9,7 +10,7 @@
   "python.testing.unittestArgs": [
     "-v",
     "-s",
-    "./tests",
+    "./src/tests",
     "-p",
     "*_test.py"
   ],
