@@ -1,5 +1,3 @@
-import unittest
-
 
 class BSTNode:
     def __init__(self, key: int, left=None, right=None) -> None:
