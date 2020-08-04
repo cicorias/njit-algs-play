@@ -38,8 +38,8 @@ class Test_Bst(unittest.TestCase):
     def test_bst_print(self):
         node = self.make_tree()
         bst = BST()
-        bst.printLevelOrder(node)
-        self.assertEqual(bst.height, 3)
+        # bst.printLevelOrder(node)
+        self.assertEqual(bst.height(node), 3)
 
 
 if __name__ == "__main__":
