@@ -14,3 +14,7 @@ class Test_Bst(unittest.TestCase):
     def test_one(self):
         vi = 1 + 1
         self.assertEqual(vi, 2)
+
+
+if __name__ == "__main__":
+    unittest.main()
